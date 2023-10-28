@@ -13,4 +13,6 @@ This version's workflow:
 
 The finished output that the user can export adds two new columns to the original data set: 
 1. A summarized version of the raw data 
-2. A sentiment score (positive, negative, or neutral). 
+2. A sentiment score (positive, negative, or neutral).
+
+##Accuracy
