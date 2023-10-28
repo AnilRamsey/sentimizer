@@ -16,3 +16,16 @@ The finished output that the user can export adds two new columns to the origina
 2. A sentiment score (positive, negative, or neutral).
 
 ## Accuracy
+
+We ran tests using 200 rows of genuine user reviews. Then, we had a human reviewer manually check each positive, negative, or neutral sentiment score for accuracy. Accuracy is around 90%; the program sometimes confuses neutral and negative sentiments. 
+
+This means a human editor should always check the final results for accuracy. 
+
+## Developing Version 1.0
+
+At present, it takes a human reviewer around 3 hours to manually verify 200 rows of Sentimizer output. Version 1.0 aims to cut that down by adding more quick-glance data:
+
+1. Categorizing raw review sentences as likes or dislikes.
+2. Extracting the keywords from all columns of likes and dislike sentences
+3. Plotting the likes and dislikes as bar charts.
+4. Exportable charts and CSV data
